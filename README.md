@@ -1,8 +1,8 @@
-# Rainfall Trends Analysis in India (1901-2025)
+# Rainfall Trends Analysis in India (1901-2015)
 
 ## Project Overview
 
-This project aims to analyze rainfall trends in India from 1901 to 2025, focusing on seasonal variations, yearly trends, and the impact of climate change using Python. The analysis is based on historical rainfall data, examining patterns across different regions and timeframes.
+This project aims to analyze rainfall trends in India from 1901 to 2015, focusing on seasonal variations, yearly trends, and the impact of climate change using Python. The analysis is based on historical rainfall data, examining patterns across different regions and timeframes.
 
 ## Dataset
 
@@ -64,7 +64,7 @@ Monsoon months (June-September) show the highest rainfall, while winter months r
 | Maharashtra   | 3200                  | 6000               | 2019         |
 | West Bengal   | 3000                  | 5600               | 1999         |
 
-Assessing the Impact of Climate Change in the Rainfall Trends in India
+## Assessing the Impact of Climate Change in the Rainfall Trends in India
 
 A 10-year rolling average of annual rainfall is calculated to identify long-term trends and smooth out short-term variations. This helps assess the potential impact of climate change on rainfall patterns.
 
@@ -72,7 +72,7 @@ This graph shows the annual rainfall trends in India (blue line) and a 10-year r
 
 ![Annual Rainfall Trends](https://github.com/Sourabh1710/Rainfall-Trends-in-India/blob/main/images/Impact_of_Climate_Change_on_Rainfall_Patterns.png)
 
-Detecting Anomalies in the Rainfall Trends in India
+## Detecting Anomalies in the Rainfall Trends in India
 
 Using the Isolation Forest algorithm, anomalies in both annual and monthly rainfall are identified to highlight years or months with unusual rainfall patterns.
 
@@ -86,7 +86,7 @@ The variability is most pronounced during the monsoon months (June to September)
 
 ![Monthly Rainfall Anomalies](https://github.com/Sourabh1710/Rainfall-Trends-in-India/blob/main/images/Monthly_Rainfall_Anomalies_in_India.png)
 
-Correlating Seasonal Rainfall with Annual Totals
+## Correlating Seasonal Rainfall with Annual Totals
 
 The correlation coefficients between seasonal rainfall and annual rainfall totals are calculated to understand how much each season contributes to the overall yearly rainfall.
 
@@ -94,7 +94,7 @@ This graph shows the correlation between monsoon rainfall and rainfall during ot
 
 ![Seasonal Rainfall Correlation](https://github.com/Sourabh1710/Rainfall-Trends-in-India/blob/main/images/Correlation_Between_Monsoon_Rainfall_and_Other_Seasons.png)
 
-Grouping Years Based on Rainfall Patterns
+## Grouping Years Based on Rainfall Patterns
 
 Using k-means clustering, years are grouped into three categories: Dry, Normal, and Wet, based on rainfall patterns.
 
@@ -102,7 +102,7 @@ The clusters reveal that most years fall into the Normal category, while Wet yea
 
 ![Rainfall Clustering](https://github.com/Sourabh1710/Rainfall-Trends-in-India/blob/main/images/Clustering%20of%20Years%20Based%20on%20Rainfall%20Patterns.png)
 
-Forecasting Future Rainfall
+## Forecasting Future Rainfall
 
 Using the Prophet library, annual rainfall is forecasted for the next 20 years.
 
