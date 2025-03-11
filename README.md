@@ -124,5 +124,5 @@ This project provides insights into India's changing rainfall patterns, helping 
 ## Author
 
 Sourabh Sonker  
-Data Science Enthusiast
+Data Scientist
 
