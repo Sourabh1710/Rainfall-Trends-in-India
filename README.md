@@ -6,7 +6,7 @@ This project aims to analyze rainfall trends in India from 1901 to 2015, focusin
 
 ## Dataset
 
-The dataset used in this project contains:
+The [dataset](https://statso.io/rainfall-trends-in-india-case-study/) used in this project contains:
 - Year
 - Month
 - Region
